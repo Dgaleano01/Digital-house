@@ -1,0 +1,7 @@
+body{margin: 0;padding: 0;}
+.logo{text-align: center;background-color: #E6E6E6;}
+.tituloSeccion{text-transform:uppercase;margin: 0;color: #005677;background-color: #C4C4C4;}
+h1{text-align: center;}
+footer{display: flex;align-items: center;justify-content: center;color: white;background-color: #005677;}
+.footerElementos{margin:5px ;}
+span{margin-left: 80px;}
