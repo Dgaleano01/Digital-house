@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Righteous&display=swap');
+
+body{margin: 0;padding: 0; background-color: rgb(255, 251, 244);}
+.logo{text-align: center;background-color: #5c3000; background-image:url(../img/fondo.jpg); background-size: cover; height: 25vh; }
+.tituloSeccion{text-transform:uppercase;margin: 0;color: #fff6b8;background-color: #d0864d; font-family: 'Righteous', cursive;} 
+h1{text-align: center; font-family: 'Righteous', cursive;}
+footer{display: flex;align-items: center;justify-content: center;color: #fff6b8;background-color:  #5c3000; font-family: 'Righteous', cursive;}
+.footerElementos{margin:5px ;}
+span{margin-left: 80px;}
+p{font-family: 'Indie Flower', cursive;}
+ul{list-style: none; font-family: 'Indie Flower', cursive;}
+.imagenMia img{ width: 150px;}
+.imagenMia{text-align: center;}
