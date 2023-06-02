@@ -1,0 +1,16 @@
+*{padding: 0%; margin: 0%; box-sizing: border-box;}
+body{background-color: #E5E5E5}
+nav{background-color: #222222; display: flex; justify-content: space-between;padding: 10px; align-items: center; box-shadow: 0px 0px 10px 0px;}
+nav ul li{display: inline;color: white;margin: 10px;}
+.box{height: 350px; width: 45%;margin: 10px; background-size: cover; border-radius: 10px; padding: 20px;}
+section{display: flex; justify-content: center; align-items: center; margin-top: 40px; margin-bottom: 20px;}
+span{color: white;}
+
+.delivery{ background-image: url(../img/delivery.jpg); color: red;}
+.top_pizzas{background-color: white; text-align: center;color: red;}
+.list_pizza{text-align: start; font-size: x-large;}
+ol{margin-top: 20px; line-height:25pt;}
+.content_top{display: flex; justify-content: space-around; align-items: center; margin-top: 30px; color: black;}
+
+footer{display: flex; justify-content: space-between; padding: 20px; background-color: #222222; align-items: center; color: white;}
+
