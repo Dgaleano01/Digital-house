@@ -12,5 +12,8 @@ span{color: white;}
 ol{margin-top: 20px; line-height:25pt;}
 .content_top{display: flex; justify-content: space-around; align-items: center; margin-top: 30px; color: black;}
 
-footer{display: flex; justify-content: space-between; padding: 20px; background-color: #222222; align-items: center; color: white;}
+footer{padding: 20px; background-color: #222222; align-items: center; color: white;}
+.nav_footer{display: flex; justify-content: space-between;}
+.nav_footer ul{list-style: none; line-height:16pt;}
+a{text-decoration: none; color: white;}
 
