@@ -1,0 +1,33 @@
+*{margin: 0; padding: 0; box-sizing:border-box;}
+nav {box-shadow: 0px 0px 15px 0px;}
+nav p {background-color: #D1891C; padding: 10px;}
+nav h1{background-color: #00669F; padding: 20px;}
+footer{color: white; background-color: #00669F; padding: 15px; text-align: center; display: flex; justify-content: space-between; align-items: center;}
+.blanco{width: 150px;}
+.git{width: 100px; position: relative; right: 0px;}
+main{padding: 10px;}
+button{background-color: #00669F; padding: 15px; padding-left: 35px; padding-right: 35px; border: none; color: white; margin-top: 20px;} 
+
+.contenido{display: flex; justify-content: center;}
+.cards{width: 300px; height: 500px; text-align: center; background-color: #F3F3F3; margin:10px; border-radius: 20px; position: relative;}
+.fotos{width: 120px; margin-bottom: 10px;border-radius: 60px;}
+.fondo{position: absolute; width: 100%;  border-radius: 20px; text-align: start; padding: 20px; height: 200px; background-repeat: no-repeat; background-size: 100%; }
+
+.contenido{display: flex; justify-content: center; flex-wrap: wrap;}
+
+.cards{background-color: #F3F3F3; margin: 30px; text-align: center;box-shadow: 0px 4px 2px 0px rgba(0,0,0,0.75);; width: 300px; border-radius: 20px; height: 550px; position: relative; margin-bottom: 30px; margin-top: 30px;}
+
+.fotos{border-radius: 60px; box-shadow:0px 5px 5px 0px rgba(0, 0, 0, 0.474);}
+
+.Batman{background-image:url(../img/Cards.png);}
+.maravilla{background-image: url(../img/maravillaBackground.png);}
+.Super{background-image: url(../img/superBackground.png);}
+.Quinn{background-image: url(../img/Group23.png);}
+
+.texto-card{margin-bottom: 10px;}
+.texto-card p{text-align: start;}
+.texto-card h2 {margin-bottom: 10px;}
+
+.contentCards{ top: 100px; position: relative; margin: 20px;}
+
+.mas{background-color: #00669F; border-radius: 60px;width: 50px; height: 50px; position: fixed; bottom: 44vh; right: 10px; display: flex; align-items: center; color: white;justify-content: center;}
