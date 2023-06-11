@@ -4,6 +4,7 @@
 .nav1 ul{margin-right: 100px;}
 .nav1 p{margin-left: 100px;}
 .logo{background-color: #F0A83E; justify-content: space-between; display: flex; padding: 20px; align-items: center;}
+.logo i{display: none;}
 .logo ul li{display: inline; margin: 10px;}
 a{text-decoration: none; color: white;}
 .logo ul {margin-right: 20px;}
@@ -17,7 +18,7 @@ a{text-decoration: none; color: white;}
 .nav3 ul { padding: 0;}
 .nav3 a{ color: black;}
 .producto{background-color: #FBFAF6; margin: 10px; text-align: center;}
-.productos{display: flex; justify-content: center;}
+.productos{display: flex; justify-content: center; flex-wrap: wrap;}
 .productos p{ color: #F0A83E; margin: 10px;}
 .Contactenos{text-align: center; margin-top: 50px; margin-bottom: 50px;}
 .Contactenos form input{margin: 5px; padding: 10px; width: 300px; border-radius: 15px; border: none; background-color: #3C2313;}
@@ -41,3 +42,12 @@ a{text-decoration: none; color: white;}
 .footer ul li{display: flex; color: white; margin: 10px;}
 .footer ul li img{ margin-right: 20px;}
 .footer2{background-color: #222222; text-align: center; color: white;padding: 5px;}
+
+@media (max-width: 660px) {
+    .nav1{display: none;}
+    .logo ul{display: none;}
+    .logo i{display: contents; color: white;}
+    .nav4Footer{flex-direction: column;}
+    .footer{flex-direction: column-reverse;}
+    
+}
