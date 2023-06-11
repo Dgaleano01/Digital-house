@@ -1,0 +1,43 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+.nav1{background-color: #222222; display: flex; justify-content:space-between; color: white; padding: 5px;}
+.nav1 ul li{display: inline; margin: 5px;}
+.nav1 ul{margin-right: 100px;}
+.nav1 p{margin-left: 100px;}
+.logo{background-color: #F0A83E; justify-content: space-between; display: flex; padding: 20px; align-items: center;}
+.logo ul li{display: inline; margin: 10px;}
+a{text-decoration: none; color: white;}
+.logo ul {margin-right: 20px;}
+.logo h1 img{margin-left: 30px;}
+.imagenfondo{width: 100%; background-image: url(../img/perro.jpg); height: 80vh; background-size: cover; text-align: center; display: flex; flex-direction: column; justify-content: center; align-items:end; }
+.imagenfondo h2{ background-color: white; display: inline-block; padding: 5px; font-size: 40px; margin: 10px;}
+.imagenfondo button{ background-color:#F0A83E; border: none; padding: 15px; color: white; cursor: pointer; margin-top: 10px;}
+.encabezado-productos{display: flex; flex-direction: column; align-items: center; margin: 20px;}
+.encabezado-productos img, .nav3, h2{margin: 5px;}
+.nav3 ul li{display: inline; margin-left: 10px;}
+.nav3 ul { padding: 0;}
+.nav3 a{ color: black;}
+.producto{background-color: #FBFAF6; margin: 10px; text-align: center;}
+.productos{display: flex; justify-content: center;}
+.productos p{ color: #F0A83E; margin: 10px;}
+.Contactenos{text-align: center; margin-top: 50px; margin-bottom: 50px;}
+.Contactenos form input{margin: 5px; padding: 10px; width: 300px; border-radius: 15px; border: none; background-color: #3C2313;}
+::placeholder{color: #c9c9c8;}
+.Contactenos button{padding: 10px; margin: 10px; padding-left: 20px; padding-right: 20px; border-radius: 20px; border: none; color: white;} 
+.Contactenos .gris{background: gray;}
+.Contactenos .naranja{background-color: #F0A83E;}
+
+
+
+.nav4Footer{background-color: #F0A83E; display: flex; justify-content: space-between; align-items: center; padding: 10px; color:white;}
+.correo{display: flex;}
+.nav4Footer div input{margin: 5px; padding: 10px; width: 300px; border-radius: 15px; border: none;}
+.nav4Footer div button{margin: 10px; padding: 10px; color: white; border-radius: 15px; border: none; background-color: #3C2313;}
+
+.footer{background-color: #3C2313;}
+
+
+.footer{list-style: none; padding: 0; display: flex; justify-content: space-between; align-items: center; padding: 10px; padding-left: 100px; padding-right: 100px;}
+.footer ul{list-style: none;}
+.footer ul li{display: flex; color: white; margin: 10px;}
+.footer ul li img{ margin-right: 20px;}
+.footer2{background-color: #222222; text-align: center; color: white;padding: 5px;}
